@@ -1,5 +1,6 @@
 package main.java.corelogic.guessthenumber;
 
+
 import java.util.Random;
 
 public class GuessTheNumberGame {
@@ -14,7 +15,7 @@ public class GuessTheNumberGame {
     public static void main(String[] args) {
         targetNumber = random.nextInt(100) + 1; // Gera um número entre 1 e 100
         HumanPlayer humanPlayer = new HumanPlayer("Humano");
-        com.iris.guessthenumber.ComputerPlayer computerPlayer = new com.iris.guessthenumber.ComputerPlayer();
+        ComputerPlayer computerPlayer = new ComputerPlayer();
 
         boolean isGameOver = false;
         while (!isGameOver) {

@@ -1,6 +1,7 @@
-package com.iris.guessthenumber;
-
 package main.java.corelogic.guessthenumber;
+
+
+import java.util.Scanner;
 
 public class HumanPlayer extends Player {
     private Scanner scanner = new Scanner(System.in);

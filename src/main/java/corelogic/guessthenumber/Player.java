@@ -1,5 +1,6 @@
 package main.java.corelogic.guessthenumber;
 
+
 public abstract class Player {
     protected String name;
     protected int[] guesses;
